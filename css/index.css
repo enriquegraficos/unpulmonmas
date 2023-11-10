@@ -49,7 +49,7 @@ body{
     color:var(--neutral);
     /* font-family: Consolas, Menlo, Monaco, monospace; */
     font-weight: bold;
-    font-size: 78px;
+    font-size: 28px;
     opacity: 1;
     background-color:var(--greenPrimary);
   }
