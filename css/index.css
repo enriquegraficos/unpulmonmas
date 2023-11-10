@@ -26,3 +26,47 @@ body{
     margin: 0;
 }
 
+
+.loader {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: 99999;  
+    background: var(--blanco);
+  }
+ 
+
+  .loader {
+    color:var(--neutral);
+    /* font-family: Consolas, Menlo, Monaco, monospace; */
+    font-weight: bold;
+    font-size: 78px;
+    opacity: 1;
+    background-color:var(--greenPrimary);
+  }
+  .loader:before {
+    content: "🌲";
+    display: inline-block;
+    animation: pulse 0.4s alternate infinite ease-in-out;
+  }
+  .loader:after {
+    content: "🌲";
+    display: inline-block;
+    animation: pulse 0.4s 0.3s alternate infinite ease-in-out;
+  }
+
+  @keyframes pulse {
+    to {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+  }
