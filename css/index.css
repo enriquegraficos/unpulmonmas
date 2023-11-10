@@ -1,0 +1,28 @@
+@import url(./header.css);
+@import url(./slider.css);
+@import url(./impacto.css);
+@import url(./proyectos.css);
+@import url(./testimonios.css);
+@import url(./aliados.css);
+@import url(./equipo.css);
+@import url(./podcast.css);
+@import url(./formulario.css);
+@import url(./footer.css);
+
+:root{
+    --greenPrimary:#4CAF4F;
+    --greenSecundary:#A5D6A7;
+    --neutral:#E8F5E9;
+    --redAction:#E53835;
+    --white:#fff;
+    --black:#000;
+    --blackSecundary:#202C47;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
