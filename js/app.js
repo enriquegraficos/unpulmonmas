@@ -1,3 +1,7 @@
+window.addEventListener(removeLoader(), (event) => {
+  
+});
+
 function removeLoader(){
   
     setTimeout(()=>{
@@ -6,6 +10,6 @@ function removeLoader(){
     // hide the loader
     loader.style = 'display: none;';
     },
-      700);  
+      600);  
   }
   
