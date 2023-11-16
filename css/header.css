@@ -4,8 +4,10 @@ header{
     grid-template-rows: auto;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    /* position: fixed; */
+    position: sticky;
+    top: 0;
     width: 100%;
+    z-index: 7;
     
 }
 
@@ -14,6 +16,7 @@ header .container-logo{
     align-items: center;
     justify-content: left;
     margin-left: 100px;
+    
 }
 
 
@@ -32,10 +35,11 @@ header .container-botones{
     color: var(--white);
     border: 3px solid var(--redAction);
     font-family:'Montserrat', sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     line-height: 1;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 700;
     background-color : var(--redAction);
     padding: 10px;
     outline: none;
@@ -57,10 +61,11 @@ header .container-botones{
     color: var(--greenPrimary);
     border: 3px solid var(--greenPrimary);
     font-family:'Montserrat', sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     line-height: 1;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 700;
     background-color : transparent;
     padding: 10px;
     outline: none;
